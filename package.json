@@ -7,5 +7,12 @@
     "workspaces": [
         "core",
         "web"
-    ]
+    ],
+    "devDependencies": {
+        "jest-sonar-reporter": "^2.0.0",
+        "sonarqube-scanner": "^3.1.0"
+    },
+    "scripts": {
+         "sonar:scanner": "sonar-scanner"
+    }
 }

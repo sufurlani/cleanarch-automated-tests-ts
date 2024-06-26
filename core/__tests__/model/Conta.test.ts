@@ -27,7 +27,7 @@ describe("Conta", () => {
     conta.sacar(5000.0);
     expect(conta.saldo).toBe(0);
   });
-
+  
   test("depositar com sucesso", async () => {
     const conta: Conta = criarConta();
     conta.depositar(200.0);
